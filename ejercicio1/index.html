@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="descrption" content="Ejercicio 1 de la clase de Diseño Web">
+    <meta name="author" content="Pau Gracida">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <style>
+        html { 
+         scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul> <!--BULLETPOINTS-->
+                    <a href=" # "><li>Inicio</li></a>
+                    <a href="portafolio.html "><li>Portafolio</li></a>
+                <!--<ul>-->
+                    <a href=" # "><li>Ilustración</li></a>
+                    <a href=" # "><li>Animación 2D</li></a>
+                <!--</ul>-->
+                    <a href=" #contacto "><li>Contacto</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Primer página web</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quos illum, molestiae consectetur nobis tenetur repellat corporis a rerum eos cupiditate eaque explicabo optio qui vero voluptatem, quidem, distinctio eius.</p>
+
+            <p class="p2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequatur tempore aspernatur eum necessitatibus eius tempora labore ipsum! Dolore sapiente ipsa repudiandae ipsam temporibus impedit quae ullam rem consequuntur nisi.</p>
+
+            <section>
+                <h2>Imágenes</h2>
+                    <img src="img/giphy.gif" alt="gif cool">
+                    <img src="img/Beat.png" alt="electrocardiograma">
+            </section>
+
+            <section>
+                <h2>Videos</h2>
+                    <video controls > <!--En vez de 'Controls', se puede AUTOPLAY LOOP-->
+                        <source src="media/1.mp4" type="video/mp4">
+                        <source src="media/1.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                <h2>Videos Online</h2>
+                    <h3>Vimeo</h3>
+                    <iframe src="https://player.vimeo.com/video/384015427" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/384015427">The Feather - Sister (Official Video)</a> from <a href="https://vimeo.com/elenorkopka">Elenor Kopka</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+                    <h3>YouTube</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7hHZnvjCbVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+            </section>
+
+            <section>
+                <h2>Audios</h2>
+                    
+                    <audio controls>
+                        <source src="media/Stones.ogg" type="audio/ogg">
+                        <source src="media/Stones.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                    </audio>
+            </section>
+
+            <section>
+                <h2>Mapa</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.232967487296!2d-99.2643244492928!3d19.402337646610526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20138891b3483%3A0xfc7f5357ee925110!2sUniversidad%20An%C3%A1huac%20Mexico%20North%20Campus!5e0!3m2!1sen!2smx!4v1579184830795!5m2!1sen!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+            </section>
+
+            
+        </main>
+        <footer id="contacto">
+            <ul>
+                <a href="https://www.facebook.com/pau.gracida" target="blank"></a><li><img src="img/fb.png" alt="Logo fb" class="logo"></li></a>
+                    
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

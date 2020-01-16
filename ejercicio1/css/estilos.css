@@ -1,0 +1,76 @@
+
+body {
+    background-image: url(../img/5_1_downloadit_mobile_wallpaper_1_1.jpg);
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    background-color: rgb(248, 247, 242);
+    padding: 1em;
+    font-family: 'Open Sans', sans-serif;
+    border: rgb(16, 46, 92) 5px solid;
+}
+
+
+h1{
+    font-family: 'Open Sans', sans-serif; 
+    color: rgb(16, 46, 92);
+    font-weight: 300;
+    line-height: 1.6rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(100, 199, 202);
+}
+
+.p2 {
+    color: coral;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.videos {
+    width: fit-content;
+}
+
+.logo {
+    width: 55px; 
+}
+
+
+/* Aquí inicia la navegación */
+ ul {
+     display: flex;
+     justify-content: space-evenly;
+     list-style: none;
+
+ }
+
+ li {  /*  Menú */
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+
+ }
+
+ a { 
+     text-decoration: none;
+     color: black;
+
+ }
+ 
+nav a {
+    text-decoration: none;
+}
+
+nav a li:hover {
+    background-color: black;
+    color: cornsilk;
+    padding: .5rem 1rem;
+}
+
+/* CMD + Shift + Diagonal  para shortcut de un comentario en .css*/
