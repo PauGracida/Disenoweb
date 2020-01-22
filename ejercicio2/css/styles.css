@@ -1,0 +1,55 @@
+#container {
+    height: 100vh; /* Viewport height (Así se expande properly la retícula) - Ver biblio Firefox - */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+header {
+    background-color: antiquewhite;
+    grid-column: 2 / span 2; /* SPAN sirve para que el color ocupe 2 espacios */
+    grid-row: 1 /2;
+}
+
+main {
+    padding-left: 1.5rem;
+    color: white;
+    background-color: black;
+    grid-column: 2 / span 2; /* SPAN sirve para que el color ocupe 2 espacios */
+    grid-row: 2 / 4;
+}
+
+footer {
+    padding-left: 1.5rem;
+    color: white;
+    background-color: rgb(83, 34, 34);
+    grid-column: 2 / span 2; /* SPAN sirve para que el color ocupe 2 espacios */
+    grid-row: 4 / 5;
+}
+.confondo { /* Sección 2 */
+    background-image: url(../img/5_1_downloadit_mobile_wallpaper_1_1\ copy.jpg);
+    grid-column: 1/7 ;
+    grid-row: 5/7 ;
+}
+
+.sinfondo { /* Sección 1 */
+    background-color: rgba(190, 188, 62, 0.459);
+    grid-column: 3 / 5 ;
+    grid-row: 3 / 6;
+    z-index: 2; /* Para que el texto se pase en frente */
+}
+
+.secc1 {
+    padding-left: 1.5rem;
+    color: white;
+    padding-top: 6.5rem ;
+}
+
+.secc2 {
+    padding-left: 1.5rem;
+}
+
+h1, h2, p {
+    padding: .4 rem;
+}
