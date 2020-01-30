@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Imágenes Responsivas</title>
+    <link rel="stylesheet" href="css/resp.css">
+    
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1> Imágenes Responsivas </h1>
+    </header>
+        
+
+    <main>
+        <img src="images/SQUIRR.jpg" alt="Imagen SQURR" sizes="(max-width:800px) 100vw, 800px" 
+        srcset="images/SQUIRR-568.jpg 568w, 
+                images/SQUIRR-768.jpg 768w, 
+                images/SQUIRR-1024.jpg 1024w
+                images/SQUIRR-1280.jpg 1280w
+                images/SQUIRR-1600.jpg 1600w
+                images/SQUIRR 1900.jpg 1900w">
+    </main>
+    <picture>
+        <source media="(max-width: 767px )" srcset="images/MOUSE-768.jpg">
+        <source media="(min-width: 768px )" srcset="images/MOUSE-793.jpg">
+        <img src="images/MOUSE.jpg" alt="MOUSE" >
+
+    </picture>
+
+    <footer>
+        <p> Sitio ® </p>
+
+    </footer>
+    
+    </div>
+</body>
+</html>

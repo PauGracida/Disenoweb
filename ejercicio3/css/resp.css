@@ -1,0 +1,30 @@
+html { 
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+/* MIS ESTILOS */
+
+
+header {
+height: 30vw;
+background-image: url(../images/PATTERN.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+header h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 3rem; 
+padding: 15rem;
+color: rgb(5, 3, 0)
+
+} 
+
+/* CODE PEN --WEB PAGE-- */
