@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+html {
+   
+    box-sizing: border-box;
+}
+
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+
+/* Mis estilos */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 1fr 1fr 1fr 50px;
+    grid-template-areas:
+    "cabeza cabeza cabeza cabeza lado lado" 
+    ". principal principal principal lado lado"
+    ". principal princiapl principal lado lado"
+    ". principal princiapl principal lado lado"
+    "pie pie pie pie pie pie";
+    gap: 5px;
+}
+object, svg {
+    width: 50vw;
+    
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+header, h2 {
+    color: white ;
+}
+
+header {
+    grid-area: cabeza;
+}
+
+main {
+    grid-area: principal;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    grid-area: lado;
+    background-color: lavender;
+}
+
+footer {
+    grid-area: pie;
+    background-color: lightcoral;
+}
+
+
+h1, h2, p, li {
+font-family: 'Bebas Neue', cursive;
+} 
