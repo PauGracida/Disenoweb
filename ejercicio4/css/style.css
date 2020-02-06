@@ -19,8 +19,8 @@ html {
     grid-template-areas:
     "cabeza cabeza cabeza cabeza lado lado" 
     ". principal principal principal lado lado"
-    ". principal princiapl principal lado lado"
-    ". principal princiapl principal lado lado"
+    ". principal principal principal lado lado"
+    ". principal principal principal lado lado"
     "pie pie pie pie pie pie";
     gap: 5px;
 }

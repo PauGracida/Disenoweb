@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+    
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(245, 232, 204);
+}
+
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: lightcoral;
+}
+
+h1, h2, p, img {
+    padding: .4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+img {
+width: 200px;
+float: left;
+shape-outside: circle(94px center center);
+}
+
+#dos {
+    width: 200px;
+}
+
+#symdos {
+    width: 200px;
+    float: left;
+    clip-path: polygon(50% 0%, 26.71% 46.58%, 0% 100%, 100% 100%);   /*Se hace doble click sobre la líne del CLIP MASK para añadir un punto más*/
+}
+
+#sym {
+    float: left;
+    shape-outside: url(../images/png.png);                           /*Sobrepone el PNG */
+}
+
+main {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(6, 1fr);             /*Lo que va adentro se va a repetir*/
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "u u u d d d"
+    "u u u d d d"
+    ". . . d d d"
+    "t t t d d d"
+    "t t t . . .";                                     /*Son muy importantes los espacios*/
+}
+
+#UNO {
+    grid-area: u;
+}
+
+#DOS {
+    grid-area: d;
+}
+
+#TRES {
+    grid-area: t;
+}
+
+
+
+
+
