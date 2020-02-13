@@ -7,7 +7,7 @@ html {
     box-sizing: inherit;
   }
 
-  h1, h2 {
+  h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: rgb(54, 35, 224);
