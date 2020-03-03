@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
 html {
@@ -9,88 +10,188 @@ html {
 
   h1 {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: rgb(54, 35, 224);
+    color: var(--color6);
+    font-weight:700;
+    font-size: 60px;
+    position: fixed;
+    margin: 2.5rem;
   }
 
-  header {
-    grid-area: he;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+  p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+    margin: 2.5rem;
+  }
+
+ :root{
+  --color1: rgb(0, 0, 0);
+  --color2: rgb(95, 24, 34);
+  --color3: rgb(116, 49, 94);
+  --color4: rgb(147, 94, 94);
+  --color5: rgb(147, 94, 169);
+  --color6: rgb(75, 219, 181);
+
+ } 
+
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: rgb(54, 35, 224);
+}
+#line {
+  height: 15%;
+  display: flex;
+  flex-wrap: inherit;
+  position: relative;
+}
+
+.title {
+grid-area: ma;
+font-size: 40px;
+padding-right: 80px;
+}
+
+header {
+  grid-area: he;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
 
-  .container {
-      display: grid;
-      grid-template-columns: repeat(8, 1fr);                        /*          8 columans, 1 fracc. c/u           */
-      grid-template-rows: 100px 1fr 1fr 1fr 1fr 200px;              /*          Header, filas, footer              */
-      gap: 5px;
-      grid-template-areas: 
-      "he he he he he he he he"
-      ". ma ma ma ma ma ma ."
-      ". ma ma ma ma ma ma ."
-      ". ma ma ma ma ma ma ."
-      ". . . . . . . ."
-      "fo fo fo fo fo fo fo fo"
-      
-      ;
-  }
-
-  main {
-      grid-area: ma;
-      background-color: rgb(127, 213, 235);
-      display: flex;
-      flex-wrap: wrap;
-  }
-
-
-  nav li {
-      width: 100%;
-  }
-
-  ul {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 40vw;
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);                        /*          8 columans, 1 fracc. c/u           */
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 200px;              /*          Header, filas, footer              */
+    gap: 5px;
+    grid-template-areas: 
+    "he he he he he he he he"
+    "ma ma ma ma ma ma ma ma"
+    "ma ma ma ma ma ma ma ma"
+    "ma ma ma ma ma ma ma ma"
+    "ma ma ma ma ma ma ma ma"
+    "fo fo fo fo fo fo fo fo"
     
-  }
-section {
-
-    border-radius: 7px;
-    height: 30vh;
-    width: 20vw;                                    /*          Afecta el espacio que ocupan las SECCIONES dentro del GRID          */
-    border: solid rgb(54, 35, 224);
-    text-align: center;
-    margin: .5rem;
+    ;
 }
+
+main {
+    grid-area: ma;
+    background-color: var(--color1);
+    display: flex;
+    flex-wrap: wrap;
+
+    background-image: url(../images/line.svg);
+    padding-left: 25%;
+    height: 125rem;
+    background-repeat: no-repeat;
+    
+
+    /*.form-inline input {
+      vertical-align: middle;
+      margin: 5px 10px 5px 0;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    } */
+}
+
+
+nav li {
+    width: 100%;
+}
+
+ul {
+    grid-area: he;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-left: 1.5rem;
+  
+}
+.section1 {
+
+  
+  height: 30vh;
+  width: 20vw;                                    /*          Afecta el espacio que ocupan las SECCIONES dentro del GRID   */       
+  text-align: center;
+  margin: .5rem;
+}
+
 
 header a {
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    color: white;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: white;
 }
 
 
 footer {
-    grid-area: fo;
-    background-color: rgb(24, 20, 18);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  grid-area: fo;
+  background-color: rgb(24, 20, 18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
 }
 
 a:hover {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+ /* RESPONSIVE */
+
+@media (min-width:760px) and (max-width:1024px) and (orientation: landscape) {
+
+}
+@media (min-width:481px) and (max-width:767px) {
+  h2 {background-color: var (--color1);
+  
+  }
+
+  h1 {
+
+    color: var(--color5) ;
+    text-align: end;
+  }
+
+}
+
+@media (min-width:320px) and (max-width:480px) {
+  h1 {
+    font-size: 3rem;
+}
+
+}
+
+
