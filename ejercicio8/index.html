@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Ejercicio 8">
+    <meta name="author" content="Pau GH">
+
+    <link rel="stylesheet" href="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js">
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+	
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title class="title">Ejercicio 8: Scroll Reveal</title>
+
+</head>
+<body>
+    <div class="container">
+
+        <header>
+
+            <section class="sect">
+                <h1 class="flip"> Scroll Reveal</h1>
+
+                <p class="parrafo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod rem dolores quis illum quisquam ut earum reiciendis asperiores nam, molestias autem dolor. Hic, dolores sunt? Doloribus illum numquam aspernatur. Expedita. </p>
+
+                <img src="https://picsum.photos/200/300/?blur=2" alt="blurpic2" class="image"> 
+
+                <p class="scaleUp"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae unde, iste mollitia beatae molestias, ea cumque temporibus et labore nemo ex magnam tempora quisquam maxime sunt quidem! Optio, nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque enim dolore accusamus nam, iusto quidem, rem quibusdam sed voluptatum rerum iste harum distinctio, possimus voluptatem est molestiae fugit dignissimos libero.
+                </p>
+
+                <img  src="https://picsum.photos/200/300" alt="randompic" class="image"> 
+
+                <p class="scaleUp"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae unde, iste mollitia beatae molestias, ea cumque temporibus et labore nemo ex magnam tempora quisquam maxime sunt quidem! Optio, nemo?
+                </p>
+
+            </section>
+               
+
+            <section class="sect">
+
+                <h2 class="flip">Subtítulo aquí</h2>
+
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis harum asperiores, quasi mollitia rem facilis aspernatur quidem eligendi ipsum quis modi? Facere quis accusantium illum quisquam sint, veritatis culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate distinctio dolore magnam maiores sint a dignissimos laborum ex autem nulla quo dicta neque corrupti, animi sit, fuga odit facilis.</p>
+
+                <img src="https://picsum.photos/200/300/?blur" alt="blurpic" class="image"> 
+
+                <p class="scaleUp"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam ab vitae iste cum. Facilis sed recusandae dicta ipsum enim quaerat similique iusto sit mollitia quos odit, explicabo, dolorum officiis nobis?
+                </P>
+
+                <img src="https://picsum.photos/seed/picsum/200/300" alt="randompic2" class="image">
+
+                <p class="scaleUp"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A quae unde, iste mollitia beatae molestias, ea cumque temporibus et labore nemo ex magnam tempora quisquam maxime sunt quidem! Optio, nemo?
+                </p>
+
+            </section>
+        </header>
+
+        <footer>
+           <p>Pau Gracida ©</p>
+
+        </footer>
+        
+    </div>
+
+    <script>
+    ScrollReveal().reveal('.image', {
+        delay:800,
+        duration: 1500,
+        reset: true
+    });
+
+   /* ScrollReveal().reveal('.parrafo', {
+        delay:800,
+        duration: 2500,
+        reset: true
+    });
+
+    ScrollReveal().reveal('.sect', {
+        delay:800,
+        duration: 3500,
+        reset: true
+    }); */
+
+    ScrollReveal().reveal('.flip', {
+    rotate: {
+        x: 5,
+        z: 5
+    }
+});
+
+ScrollReveal().reveal('.scaleUp', { scale: 0.85 });
+
+
+    </script>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota|Lato&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+} 
+
+h1, h2 {
+    font-family:'Bellota', cursive;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+
+    object-fit: cover;
+}
