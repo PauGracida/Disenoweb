@@ -1,0 +1,112 @@
+ 
+
+ @font-face {
+   font-family: 'acre-bolduploaded_file';
+   src: url('acre_bold_thefontsmaster.com-webfont.woff2') format('woff2'),
+        url('acre_bold_thefontsmaster.com-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+@font-face {
+   font-family: 'acre-regularuploaded_file';
+   src: url('acre_regular_thefontsmaster.com-webfont.woff2') format('woff2'),
+        url('acre_regular_thefontsmaster.com-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+} 
+
+ /*.uno, .dos {
+    background-image: url(../images/pexels-photo.jpeg);
+
+    box-sizing: content-box;
+    text-align: center;
+    color: white;
+    font-family:'acre-regularuploaded_file';
+    
+ }
+
+ .container {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-family:'acre-regularuploaded_file';
+ }
+
+
+
+ .social {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+    height: 10rem;
+    font-family:'acre-regularuploaded_file';
+ } */
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+
+.container {
+  display: grid;
+   grid-template-columns: repeat(3, 1fr);                        /*          3 columans, 1 fracc. c/u            */   
+   /* grid-template-rows:  300px 300px ;      <-- No aplica para prpósito de Ej. 10 en cuestión de posición                               Header, ** filas **, footer         */   
+   gap: 5px;
+   grid-template-areas: 
+
+   ". ma ."
+   ;
+
+   background-color: #eebdb9;
+
+   padding-bottom: 10px;
+}
+
+/* main {
+   grid-area: ma;
+   display: flex;
+   flex-wrap: wrap;
+   background-image: url(../images/ERROR\ 404_CAT.png);
+}
+
+*/
+
+.cat {
+   
+   grid-area: ma; 
+   
+   margin-top: 5em;
+   padding-left: 3.2em;
+   height: 27rem;
+}
+
+.text {
+   margin: 0;
+   position: relative;  
+
+   font-family:'acre-bold';
+   
+  
+}
+
+.text #h {
+   font-size: 35px;
+
+   padding-left: 37rem;
+   
+}
+
+.text #p {
+   font-family: 'acre-regular';
+   font-size: 18px;
+
+   padding-left: 28.5rem;
+
+}
+
+
+
