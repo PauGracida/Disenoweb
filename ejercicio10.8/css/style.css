@@ -1,0 +1,191 @@
+ 
+html {
+   box-sizing: border-box;
+ }
+
+ *, *:before, *:after {
+   box-sizing: inherit;
+}
+
+
+ @font-face {
+   font-family: 'acre-bolduploaded_file';
+   src: url('acre_bold_thefontsmaster.com-webfont.woff2') format('woff2'),
+        url('acre_bold_thefontsmaster.com-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+@font-face {
+   font-family: 'acre-regularuploaded_file';
+   src: url('acre_regular_thefontsmaster.com-webfont.woff2') format('woff2'),
+        url('acre_regular_thefontsmaster.com-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+} 
+
+
+
+body {
+   background-color:#86446d;             /* #bea92d */ /*be5d68 ROSA OBS*/ /* e69594 PALO ROSA OBS */
+}
+
+/* Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1050px) {
+
+   section { margin: -2rem 15rem 5rem 50%;                             /* TOP | R | BOTTOM | L 
+   }
+
+ } */
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 1080px) and (max-width: 1290px){ */
+
+ 
+@media screen and (max-width: 767px) and (min-width: 481px){           /* Menor o igual a */ 
+
+   .container {
+      margin-left: -7rem;
+   
+   }
+
+   .containeer {
+      margin-left: -9rem;
+     
+   }
+}
+
+
+.container {
+position: absolute;                             /* Éste RELATIVE permite el overlay de éste item */ 
+                                                /* padding: 27% 48.5% 23%;                         TOP | R | BOTTOM | L   */
+
+top: 233px;
+left: 31%;
+}
+
+/* } */
+
+
+   section {
+   position: absolute;
+   width: 640px;
+   height: 350px;
+
+   border: 4.5px solid #000000;
+   border-radius: 1.3rem;
+   background-color: #ffffff;
+}
+
+h1 {
+   position: absolute;
+   margin: 0 .5rem .5rem -11.9rem;
+
+   padding: .5rem 3.8em .2rem 25rem;             /* TOP | R | BOTTOM | L   */
+
+   font-family: 'acre-bold';
+   font-size: 29.8px;
+
+}
+
+h1.id {
+   position: absolute;
+   margin: 0 .5rem .5rem -.1rem;
+
+   border-bottom: 4.5px solid #000000;
+
+   padding: .5rem 3.8em 2.6rem 32.7rem;             /* TOP | R | BOTTOM | L   */
+
+   font-family: 'acre-bold';
+   font-size: 29.8px;
+
+}
+
+.img {
+   position: absolute;
+
+   margin: 15rem 5rem 5rem 41rem;
+   padding: 1.5rem;
+
+   width: 18rem;
+}
+
+p {
+   position: absolute;
+   margin: 37.5% 1% 10% 2.2rem;         
+
+   font-family: 'acre-regular';
+   font-size: 14px;
+}
+
+main {
+   padding-top: 10.3rem;
+   padding-left: 16.2rem;
+}
+
+
+
+section #contact {
+   position: absolute;
+   margin: 7.7rem 0rem 0rem 1.7rem ;
+
+   width: 140px;
+   height: 33px;
+
+   border-radius: .6rem;
+   font-family: 'acre-bold';
+   font-size: 11.5px;
+}
+
+section #home {
+   position: absolute;
+   margin: 7.7rem 0 0 12rem;
+
+   width: 145px;
+   height: 30px;
+
+   background-color:#86446d ;
+   border: none;
+   border-radius: .5rem;
+   font-family: 'acre-bold';
+   font-size: 11px;
+   color: #ffffff;
+
+}
+
+h2 { 
+   position: absolute;
+
+   padding: 15px;
+
+}
+
+#c {
+   position: absolute;
+   margin: -.7em 0 0 1.3rem;                               /* TOP | R | BOTTOM | L   */
+   
+}
+
+#h {
+   position: absolute;
+   margin: -.5em 0 0 1rem;
+
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1050px) {
+
+   section { margin: -2rem 15rem 5rem 50%;                             /* TOP | R | BOTTOM | L 
+   }
+
+ }
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}  */

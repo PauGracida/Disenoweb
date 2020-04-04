@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+  }
+ 
+  *, *:before, *:after {
+    box-sizing: inherit;
+ }
+ 
+ 
+  @font-face {
+    font-family: 'acre-bolduploaded_file';
+    src: url('acre_bold_thefontsmaster.com-webfont.woff2') format('woff2'),
+         url('acre_bold_thefontsmaster.com-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ 
+ @font-face {
+    font-family: 'acre-regularuploaded_file';
+    src: url('acre_regular_thefontsmaster.com-webfont.woff2') format('woff2'),
+         url('acre_regular_thefontsmaster.com-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ } 
+
+  .container {
+    position: absolute;
+    font-family: acre-bold;
+    font-size: 185px;
+    margin: 0;
+  
+  }
+
+section.one {
+    position: absolute;
+    margin: 0;
+    border-radius: 0px;
+    height: 100vh;
+    width: 15vw;                                    /*          Afecta el espacio que ocupan las SECCIONES dentro del GRID          */
+    border: solid #000000 4px;
+    background-color: burlywood;
+
+}
+
+section.we {
+    position: absolute;
+    margin-left: 15.4rem;
+    margin-top: -44.1%;
+    text-align: center;
+
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    height: 25.5vh;
+    width: 30vw;                                   
+    border: solid #000000 4px;
+}
+
+section.are {
+    position: absolute;
+    margin-top: 13.4rem;
+    margin-left: 38rem;
+    text-align: center;
+
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    height: 25.5vh;
+    width: 30vw;                                   
+    border: solid #000000 4px;
+}
+
+section.four {
+    position: absolute;
+    margin-top: 27rem;
+    margin-left: 38rem;
+    text-align: center;
+
+    border-radius: 0px;
+    height: 15vh;
+    width: 30vw;                                   
+    background-color: aqua;
+}
+
+section.under {
+    position: absolute;
+    margin-top: 35rem;
+    margin-left: 38rem;
+
+    text-align: center;
+    padding-top: 2.3rem;
+    font-size: 150px;
+
+    border-radius: 0px;
+    height: 26vh;
+    width: 30vw;                                   
+    border: solid #000000 4px;
+}
+
+section.construction {
+    position: absolute;
+    margin-top: 27.2rem;
+    margin-left:55.3rem;
+
+    float: left;
+    transform: rotate(90deg);
+    text-align: center;
+    font-size: 75px;
+
+    border-radius: 0px;
+    height: 15vh;
+    width: 34vw;     
+    padding-top: 1.5rem;                              
+    border: solid #000000 4px;
+}
+
+
+section.sev {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+
+    border-radius: 0px;
+    height: 25.5vh;
+    width: 30vw;                                   
+    border: solid #000000 4px;
+}
+
+
+/* a:hover {
+    color: blanchedalmond;
+} */
