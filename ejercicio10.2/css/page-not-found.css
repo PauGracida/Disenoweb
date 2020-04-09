@@ -30,7 +30,7 @@ html {
 
 
 body {
-   background-color:#6b203e;             /* #bea92d */ /*be5d68 ROSA OBS*/ /* e69594 PALO ROSA OBS */
+   background-color:#c56b75 ;             /* #bea92d */ /*be5d68 ROSA OBS*/ /* e69594 PALO ROSA OBS */
 }
 
 /* Extra large devices (large desktops, 1200px and up) 
@@ -88,7 +88,7 @@ h1 {
    padding: .5rem 3.8em .2rem 6rem;             /* TOP | R | BOTTOM | L   */
 
    font-family: 'acre-bold';
-   font-size: 29.7px;
+   font-size: 30px;
 
 }
 
@@ -132,13 +132,13 @@ p {
    
 }
 
- #boot {
+ #cat {
    position: absolute;
 
-   margin: 5.4rem -10rem 5rem -.7rem;
+   margin: 5.8rem -10rem 5rem 1.2rem;
    padding: 1.5rem;
 
-   width: 29rem;
+   width: 25rem;
 
 }
 
@@ -165,6 +165,13 @@ section #contact {
    font-size: 11.5px;
 }
 
+ section #contact:hover{
+   background-color:#000000;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+
 section #home {
    position: absolute;
    margin: 7.7rem 0 0 12rem;
@@ -172,13 +179,14 @@ section #home {
    width: 145px;
    height: 30px;
 
-   background-color:#f1d5c5 ;
+   background-color:#eebdb9 ;
    border: none;
    border-radius: .5rem;
    font-family: 'acre-bold';
-   font-size: 11px;
+   font-size: 11.5px;
 
 }
+
 
 h2 { 
    position: absolute;
@@ -189,14 +197,32 @@ h2 {
 
 #c {
    position: absolute;
-   margin: -.7em 0 0 1.3rem;                               /* TOP | R | BOTTOM | L   */
+   margin: -.5em 0 0 -.3rem;                               /* TOP | R | BOTTOM | L   */
+   font-size: 1.5em;
+   color: #000000;
+   text-decoration: none;
    
+}
+
+#c:hover{
+   color: #ffffff;
 }
 
 #h {
    position: absolute;
-   margin: -.5em 0 0 1rem;
+   margin: -.4rem 0 0 -.6rem;
+   color: #000000;
+   font-size: 1.5em;
+   text-decoration: none;
 
+}
+
+#h:hover{
+   color: #ffffff;
+}
+
+section #home:hover {
+   background-color: #000000;
 }
 
 

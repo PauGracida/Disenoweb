@@ -135,10 +135,10 @@ p {
  #kitty {
    position: absolute;
 
-   margin: 7.7rem -10rem 5rem .1rem;
+   margin: 6.2rem -10rem 5rem .2rem;
    padding: 1.5rem;
 
-   width: 27rem;
+   width: 26.7rem;
 
 }
 
@@ -172,7 +172,8 @@ section #home {
    width: 145px;
    height: 30px;
 
-   background-color:#eebdb9 ;
+   background-color:#f0beba ; /*be5d68 ROSA OBS*/ /* e69594 PALO ROSA OBS */
+
    border: none;
    border-radius: .5rem;
    font-family: 'acre-bold';
@@ -189,14 +190,40 @@ h2 {
 
 #c {
    position: absolute;
-   margin: -.7em 0 0 1.3rem;                               /* TOP | R | BOTTOM | L   */
+   margin: -.6rem 0 0 -.3rem;                               /* TOP | R | BOTTOM | L   */
+   color: #000000;
+   font-size: 1.5em;
+   text-decoration: none;
+   
    
 }
 
 #h {
    position: absolute;
-   margin: -.5em 0 0 1rem;
+   margin: -.3rem 0 0 -.5rem;
+   color: #000000;
+   font-size: 1.5em;
+   text-decoration: none;
+   
 
+}
+
+#h:hover{
+   color: #ffffff;
+}
+
+section #home:hover {
+   background-color: #000000;
+}
+
+section #contact:hover{
+   background-color:#000000;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+#c:hover{
+   color: #ffffff;
 }
 
 
