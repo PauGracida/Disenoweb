@@ -225,6 +225,28 @@ section #contact:hover{
       }
    }
 
+   /* Extra large devices */ 
+   @media only screen and (min-width: 1920px) and (max-width:1360){    /* Menor o igual a */ 
+
+      section { margin: -2rem 15rem 5rem 50%;                          /* TOP | R | BOTTOM | L */
+   }
+
+      .container {
+         margin-left: -7rem;
+      
+      }
+   
+      .containeer {
+         margin-left: -9rem;
+        
+      }
+
+      .img {
+         margin: 13rem 5rem 5rem 34.5rem;
+      
+      }
+   }
+
 
 
 
