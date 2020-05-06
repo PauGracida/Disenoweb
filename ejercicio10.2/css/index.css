@@ -1,4 +1,24 @@
  
+ @font-face {
+   font-family: 'acre-bolduploaded_file';
+   src: url('../fonts/acre-bold') format('woff2'),
+        url('../fonts/acre-bold') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+@font-face {
+   font-family: 'acre-regularuploaded_file';
+   src: url('../fonts/acre-regular') format('woff2'),
+        url('../fonts/acre-regular') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+} 
+
+
 html {
    box-sizing: border-box;
  }
@@ -8,55 +28,10 @@ html {
 }
 
 
- @font-face {
-   font-family: 'acre-bolduploaded_file';
-   src: url('acre_bold_thefontsmaster.com-webfont.woff2') format('woff2'),
-        url('acre_bold_thefontsmaster.com-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-
-}
-
-
-@font-face {
-   font-family: 'acre-regularuploaded_file';
-   src: url('acre_regular_thefontsmaster.com-webfont.woff2') format('woff2'),
-        url('acre_regular_thefontsmaster.com-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-
-} 
-
-
-
 body {
    background-color:#86446d;             /* #bea92d */ /*be5d68 ROSA OBS*/ /* e69594 PALO ROSA OBS */
 }
 
-/* Extra large devices (large desktops, 1200px and up) 
-@media (min-width: 1050px) {
-
-   section { margin: -2rem 15rem 5rem 50%;                             /* TOP | R | BOTTOM | L 
-   }
-
- } */
-
-/* Large devices (desktops, 992px and up) 
-@media (min-width: 1080px) and (max-width: 1290px){ */
-
- 
-@media screen and (max-width: 767px) and (min-width: 481px){           /* Menor o igual a */ 
-
-   .container {
-      margin-left: -7rem;
-   
-   }
-
-   .containeer {
-      margin-left: -9rem;
-     
-   }
-}
 
 
 .container {
@@ -107,7 +82,7 @@ h1.id {
 .img {
    position: absolute;
 
-   margin: 15rem 5rem 5rem 41rem;
+   margin: 13rem 5rem 5rem 34.5rem;
    padding: 1.5rem;
 
    width: 18rem;
@@ -201,15 +176,59 @@ section #contact:hover{
 
 
 
-/* Extra large devices (large desktops, 1200px and up) 
-@media (min-width: 1050px) {
+ 
+   
 
-   section { margin: -2rem 15rem 5rem 50%;                             /* TOP | R | BOTTOM | L 
+
+/* Large devices */
+
+ 
+   @media only screen and (min-width: 768px) and (max-width: 1199px){    /* Menor o igual a */ 
+
+      section { margin: -2rem 15rem 5rem 50%;                          /* TOP | R | BOTTOM | L */
    }
 
- }
+      .container {
+         margin-left: -7rem;
+      
+      }
+   
+      .containeer {
+         margin-left: -9rem;
+        
+      }
 
-/* Large devices (desktops, 992px and up) 
-@media (min-width: 768px) and (max-width: 1024px) {
+      .img {
+         margin: 12.5rem 1rem 5rem 17.5rem;
+      
+      }
+   }
 
-}  */
+/* Medium devices */ 
+   @media only screen and (min-width: 1200px) and (max-width: 1919px){    /* Menor o igual a */ 
+
+      section { margin: -2rem 15rem 5rem 50%;                          /* TOP | R | BOTTOM | L */
+   }
+
+      .container {
+         margin-left: -7rem;
+      
+      }
+   
+      .containeer {
+         margin-left: -9rem;
+        
+      }
+
+      .img {
+         margin: 12.5rem 1rem 5rem 26rem;
+      }
+   }
+
+
+
+
+
+
+
+
